@@ -31,7 +31,7 @@ export const WeatherViewer = ({ cityData }) => {
       .then((res) => {
         setData(res.data[0]);
         setIconSrc(`/icons/${res.data[0].WeatherIcon}.svg`);
-        console.log(res.data[0].WeatherIcon);
+        //console.log(res.data[0].WeatherIcon);
       });
   }, [cityData.Key]);
 
