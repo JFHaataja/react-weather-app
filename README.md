@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# React Weather App ("Weather Wise")
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Weather App (in-app name: Weather Wise) is a React.js SPA Front End application which utilises the AccuWeather API. The app is running live on Vercel. Note: this project is still work in progress.
 
-## Available Scripts
+## Application overview
 
-In the project directory, you can run:
+This is a one page demo application for a fictional weather company called Weather Wise. The users can use the app to search for current weather data.
 
-### `npm start`
+## Live demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Click the link below to try out the live version:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Live demo of Weather Wise](https://weather-wise-app.vercel.app/)
 
-### `npm test`
+## Get started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. To set up the app execute the following commands.
 
-### `npm run build`
+```bash
+git clone https://github.com/JFHaataja/react-crud-app
+cd react-crud-app
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. After everything has finished installing, you need to then create an empty .env file at the root level of the project and add the necessary Rest API endpoint URL:s into it.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Here is a list of available commands you can run:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npm start`
 
-### `npm run eject`
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`npm run build`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Builds the app for production to the build folder.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`npm run lint`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Analyzes the code with ESlint.
 
-## Learn More
+`npm run prettier`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Formats the app with Prettier.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`npm run lint`
 
-### Code Splitting
+Analyses the app with Eslint.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`npm run eject`
 
-### Analyzing the Bundle Size
+Note: this is a one-way operation. Once you `eject`, you can't go back!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-### Making a Progressive Web App
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+public
+|
++-- icons             # Weather icons
+|
+src
+|
++-- assets            # Images and CSS files
+|
++-- components        # shared components and pages used across the entire application
+```
 
-### Advanced Configuration
+## Tech Used in the Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Front End:** React.js, AccuWeather API, CSS, Prettier, Eslint, Axios, Vercel
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Layout Design:** Figma, Adobe Express
