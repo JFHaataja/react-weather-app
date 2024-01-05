@@ -22,7 +22,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prettier": "prettier . --write",
-    "eslint-config-prettier": "eslint-config-prettier path/to/main.js"
+    "eslint-config-prettier": "eslint-config-prettier path/to/main.js",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx"
   },
   "eslintConfig": {
     "extends": [
