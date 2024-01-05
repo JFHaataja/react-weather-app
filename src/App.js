@@ -1,10 +1,10 @@
-import 'assets/style/main.css';
+import './assets/style/main.css';
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { WeatherViewer } from "./components/WeatherViewer.js";
 import { WeatherHeadline } from "./components/WeatherHeadline.js";
-import logo from 'assets/img/weather-wise-logo.svg';
-import houseImage from 'assets/img/Hero-img-house.png';
+import logo from './assets/img/weather-wise-logo.svg';
+import houseImage from './assets/img/Hero-img-house.png';
 
 
 function App() {

@@ -176,7 +176,7 @@ form {
 }
 
 .search-input {
-	background: url('assets/img/search-icon.svg') white no-repeat .8rem center;
+	background: url("/src/assets/img/search-icon.svg") white no-repeat .8rem center;
 	font-size: 1rem;
 	border-radius: 0.90625rem;
 	-webkit-appearance: none;

@@ -1,4 +1,3 @@
-import '../assets/style/main.css';
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import CurrentDateDisplay from './CurrentDate.js';
