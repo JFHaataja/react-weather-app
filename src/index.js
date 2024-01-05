@@ -3,7 +3,7 @@ import "./assets/style/main.css";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import ErrorBoundary from './components/Error/ErrorBoundary';
+import ErrorBoundary from "./components/Error/ErrorBoundary";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
